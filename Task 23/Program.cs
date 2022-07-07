@@ -30,7 +30,7 @@ int i = 0;
 
 string cube(int n)
 {
-    for (i=0; i <= n; i++)
+    for (i=1; i <= n; i++)
     {
         int result = i*i*i;
         Console.WriteLine($"{i} в кубе = {result}"); 
